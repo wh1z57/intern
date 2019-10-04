@@ -28,7 +28,7 @@ public class PQueue {
 			totalEvents--;
 		}
 		if (t.size() == 0) {
-			System.out.println("EMPTY");
+			System.out.println("EMPTY TRY AGAIN");
 		}
 		for (Student student : t) {
 			System.out.println(student.getFname());
